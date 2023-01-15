@@ -1,20 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Architect</title>
-</head>
-<body>
+    <!-- font style add -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/efd0ffb17a.js" crossorigin="anonymous"></script>
+    <!-- css link add -->
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
     <header class="header">
-        <h2> header</h2>
+      <nav>
+        <h2 class="nav-title">G3 Architects</h2>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact Us</li>
+          <li>Login</li>
+        </ul>
+      </nav>
+      <!-- header section -->
+      <div class="header-container">
+        <div class="header-container-div">
+          <h1 class="header-title">Brand New </h1>
+          <h2 class="header-title-sub">Group of Architects</h2>
+          <p class="header-description">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even
+          </p>
+        </div>
+        <button class="btn-primary">Contact us</button>
+        <div class="banner"></div>
+      </div>
     </header>
     <main>
+        <!-- section 1:feature section -->
+        <section class="feature">
+            <div class="feature-container">
+                <div class="feature-images">
+                    <div class="image-div"><img src="./images/team1.png" alt=""></div>
+                    <div class="image-div"><img src="./images/team2.png" alt=""></div>
+                    <div class="image-div"><img src="./images/team3.png" alt=""></div>
+                    <div class="image-div"><img src="./images/team4.png" alt=""></div>
+                </div>
+                <div class="feature-description">
+                    <h3 class="description-title">Quick list <span>of Our</span> </h3>
+                    <h3 class="description-title-sub">Features</h3>
+                    <p class="description-para">
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even.
+                    </p>
+                    <button class="btn-primary">Explore More</button>
+                </div>
+            </div>
+        </section>
 
+        <!-- love and enjoy section -->
+        <section class="love_and_enjoy">
+            <div class="content">
+                <div class="content-header">
+                    <h2 class="display-title">
+                        Features you will love & enjoy
+                    </h2>
+                    <p class="display-description">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, sequi!
+                    </p>
+                </div>
+                <div class="display-description-child">
+                    <div class="child">
+                        <h3 class="child-title">
+                            Dexktop & Mobile Version
+                        </h3>
+                        <p class="child-description">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised...........
+                        </p>
+                    </div>
+                    <div class="child">
+                        <h3 class="child-title">
+                            Drag & Drop Builder
+                        </h3>
+                        <p class="child-description">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised...........
+                        </p>
+                    </div>
+                    <div class="child">
+                        <h3 class="child-title">
+                            Drag & Drop Builder
+                        </h3>
+                        <p class="child-description">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised...........
+                        </p>
+                    </div>
+                    <div class="child">
+                        <h3 class="child-title">
+                            Drag & Drop Builder
+                        </h3>
+                        <p class="child-description">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised...........
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="content-display">
+                <div class="btn">
+                    <button class="btn-secondary"> 10+ year <span class="btn-spn">experience</span></button>
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- Fact section -->
+        <section class="fact">
+            <h2 class="fact-title">Some Facts</h2>
+            <p class="fact-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+            <div class="fact-items">
+                <div id="item-1" class="item">
+                    <a href="http://"><img src="./images/icons/ribon.png" alt=""></a>
+                    <h3 class="item-title">54</h3>
+                    <p class="item-description">Award winning</p>
+                </div>
+                <div id="item-2" class="item">
+                    <a href="http://"> <img src="./images/icons/projects.png" alt=""></a>
+                    <h3 class="item-title">1400</h3>
+                    <p class="item-description">project finished</p>
+                </div>
+                <div id="item-3" class="item">
+                    <a href="http://"><img src="./images/icons/customers.png" alt=""></a>
+                    <h3 class="item-title">540</h3>
+                    <p class="item-description">clint worked</p>
+                </div>
+                <div id="item-4" class="item">
+                    <a href="http://"> <img src="./images/icons/email.png" alt=""></a>
+                    <h3 class="item-title">1200</h3>
+                    <p class="item-description">email sent</p>
+                </div>
+            </div>
+        </section>
+        <!-- sponsor section -->
+        <section class="sponsor">
+            <h2 class="sponsor-title">
+                Our Sponspors
+            </h2>
+            <p class="sponsor-description">
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.
+            </p>
+            <div class="sponsor-companies">
+                <div class="company"><img class="company-img" src="./images/sponsors/spotify.png" alt="" srcset=""></div>
+                <div class="company"><img class="company-img" src="./images/sponsors/amazon.png" alt="" srcset=""></div>
+                <div class="company"><img class="company-img" src="./images/sponsors/figma.png" alt="" srcset=""></div>
+                <div class="company"><img class="company-img" src="./images/sponsors/google.png" alt="" srcset=""></div>
+                <div class="company"><img class="company-img" src="./images/sponsors/telerama.png" alt="" srcset=""></div>
+            </div>
+
+        </section>
+        <!-- review section -->
+        <section class="review">
+            <h2 class="review-title">
+                Review from Customers
+            </h2>
+            <div class="review-customers">
+                <div class="customer">
+                    <img src="./images/customer/1.png" alt="" srcset="">
+                    <h3 class="item-title">Natham</h3>
+                    <p class="item-description">Satisfied with these products. i will give rating 4 out of 5.</p>
+                </div>
+                <div class="customer">
+                    <img src="./images/customer/2.png" alt="" srcset="">
+                    <h3 class="item-title">Mat</h3>
+                    <p class="item-description">Average quality maintained and you can save money than other's. i will give rating 5 out of 5.</p>
+                </div>
+                <div class="customer">
+                    <img src="./images/customer/3.png" alt="" srcset="">
+                    <h3 class="item-title">Ellish</h3>
+                    <p class="item-description">our company take advantage from this company and i will give rating 5 out of 5.</p>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer>
-
+    <footer class="footer">
+        <p class="footer-description">
+            All rights reserved copyright@2023 startup landing page design
+        </p>
     </footer>
-</body>
+  </body>
 </html>
