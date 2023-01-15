@@ -4,9 +4,10 @@
   padding: 0;
   margin: 0;
   font-family: "Work Sans", sans-serif;
+  
 }
 header {
-  width: 99vw;
+  width: 98vw;
   background: rgba(255, 144, 14, 0.1);
 }
 
@@ -117,7 +118,7 @@ section {
   padding: 0;
 }
 .image-div img {
-  width: 100%;
+  width: 98%;
 }
 
 .description-title {
@@ -363,7 +364,7 @@ span {
 
 /* footer design */
 .footer {
-  width: 1440px;
+  width: 98vw;
   height: 100px;
   background: #fff4e7;
   text-align: center;
@@ -377,20 +378,161 @@ span {
 }
 
 /* media query design */
-/* @media only screen and (max-width:688px) {
+@media only screen and (max-width:688px) {
+    
     nav, ul {
         flex-direction: column;
     }
-    .review,.sponsor,.fact,.love_and_enjoy,.feature {
-        display: none;
+    nav ul {
+        align-items: flex-start;
+        margin-left: -200px;
     }
+    body {
+        width: 100%;
+    }
+    .header-container-div {
+        width: 88%;
+        height: 345px;
+        padding-top: 5px;
+      }
+    .banner {
+        height: 200px;
+        width: 100%;
+    }
+
+    /* feature */
+    .feature-container {
+        grid-template-columns: repeat(1, 1fr);
+      }
+      .feature-images {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 15px;
+      }
+      /* love and enjoy section */
+      .love_and_enjoy {
+        flex-direction: column;
+        margin-top: -200px;
+        margin-bottom: 300px;
+      }
+      
+      .content {
+        flex-direction: column;
+        width: 300px;
+        height: 1000px;
+      }
+      .content-header {
+        margin-top: 400px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      .display-description {
+        font-weight: 400;
+        font-size: 14px;
+        color: #727272;
+      }
+      .display-description-child {
+        padding: 5px;
+        margin-bottom: 50px;
+      }
+      .child {
+        margin-top: 20px;
+        margin-bottom: 40px;
+      }
+      .child-title {
+        margin-bottom: 10px;
+      }
+      
+      .content-display {
+        width: 350px;
+        height: 500px;
+        margin-left: -100px;
+      }
+    
+      .btn {
+        position: relative;
+        display: block;
+        top: 450px;
+        width: 200px;
+        right: -50px;
+      }
+
+    /* fact */
+    .fact {
+        margin-bottom: 200px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      .fact-title {
+        font-size: 57px;
+        margin-bottom: 40px;
+      }
+      .fact-description {
+        font-size: 18px;
+        margin-bottom: 20px;
+      }
+      .fact-items {
+        margin-top: 50px;
+        flex-direction: column;
+      }
+      .item {
+        height: 150px;
+        width: 150px;
+        margin-bottom: 10px;
+        
+      }
+      .item-title {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 20px;
+      }
+      .item-description {
+        font-weight: 400;
+        font-size: 16px;
+      }
+    /* sponsor */
+    .sponsor{
+        margin-bottom: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+    .sponsor-title {
+        font-size: 57px;
+        margin-bottom: 40px;
+      }
+      .sponsor-description {
+        font-size: 18px;
+        margin-bottom: 100px;
+      }
+      .sponsor-companies{
+        flex-direction: column;
+      }
+      .company {
+        width: 200px;
+        height: 30px;
+      }
+      
+    /* review section */
+    .review {
+        margin-top: 100px;
+    }
+    .review-customers {
+        flex-direction: column;
+      }
+      .customer {
+        width: 300px;
+        height: 200px;
+        padding: 10px;
+        box-shadow: 10px 10px 10px 0 gray;
+      }
+
+    /* footer */
+    .footer {
+        width: 99%;
+        height: 50px;
+    }
+    
 }
-@media only screen and (min-width:689px) {
-    nav {
-        flex-direction: row;
-        width: 1200px;
-    }
-    .review,.sponsor,.fact,.love_and_enjoy,.feature {
-        display: none;
-    }
-} */
